@@ -1,0 +1,265 @@
+
+fieldset, img, abbr, acronym {
+    border: 0 none;
+}
+abbr, acronym {
+    font-variant: normal;
+}
+legend {
+    color: #000;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+sup {
+    vertical-align: text-top;
+}
+sub {
+    vertical-align: text-bottom;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+caption, th {
+    text-align: left;
+}
+input, img, select {
+    vertical-align: middle;
+}
+ol, ul {
+    list-style: outside none none;
+}
+input, button, textarea, select, optgroup, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+del, ins, a {
+    color: #000;
+    text-decoration: none;
+}
+a:hover, a:active, a:focus {
+    text-decoration: none;
+}
+input[type="submit"] {
+    cursor: pointer;
+}
+button {
+    cursor: pointer;
+}
+input::-moz-focus-inner {
+    border: 0 none;
+    padding: 0;
+}
+figure {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+.clear {
+    clear: both;
+}
+.f_l {
+    float: left;
+}
+.f_r {
+    float: right;
+}
+.w960 {
+    width: 960px;
+}
+.cen {
+    margin: 0 auto;
+}
+.llmclear {
+    clear: both;
+}
+.jz1 {
+    margin: auto;
+    width: 1200px;
+}
+.llm_menu1 {
+    height: 65px;
+}
+.menu1 ul li {
+    border-top: 3px solid #fff;
+    float: left;
+    font-size: 16px;
+    line-height: 62px;
+    padding: 0 30px;
+}
+.LodA {
+    float: left;
+    line-height: 65px;
+}
+.menu1 {
+    float: right;
+}
+.menu1 ul li:hover {
+    background: #eeeeee none repeat scroll 0 0;
+    border-top: 3px solid #209196;
+}
+.banner1 {
+    background: rgba(0, 0, 0, 0) url("../Images/pengren.jpg") no-repeat scroll center center / cover ;
+    min-height: 500px;
+}
+.c1le1 {
+    float: left;
+}
+.c1le2 {
+    float: left;
+    width: 660px;
+}
+.c1le3 {
+    float: right;
+}
+.c1le2 h4 {
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+.c1le2 p {
+    font-size: 18px;
+    padding: 10px 30px; text-align:left
+}
+.c1cen {
+    padding: 50px 0;
+}
+.c1jia1 {
+    padding: 60px 0;
+}
+.c1jia1 ul li {
+    float: left;
+    padding-right: 38px;
+}
+.c4zx2 {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #f2a011;
+    color: #f2a011;
+    font-size: 18px;
+    padding: 10px 55px;
+}
+.banner2 {
+    background: rgba(0, 0, 0, 0) url("../Images/banner2.jpg") no-repeat scroll center center / cover ;
+    min-height: 405px;
+}
+.infuleimu h4 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+}
+.infuleimu h3 {
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: center;
+}
+.infuleimu p {
+    color: #fff;
+    font-size: 24px;
+    padding: 30px 50px; text-align:left
+}
+.c2le1 {
+    float: left;
+}
+.c2le2 {
+    float: right;
+    width: 650px;
+}
+.c2le2 h4 {
+    font-size: 30px;
+    padding: 30px 0;
+}
+.c2le2 p {
+    color: #7d7d7d;
+    font-size: 18px; text-align:left
+}
+.c2shang1 {
+    padding-top: 50px;
+}
+.c2le3 {
+    float: left;
+    width: 650px;
+}
+.c2le3 h4 {
+    font-size: 30px;
+    padding: 30px 0;
+}
+.c2le3 p {
+    color: #7d7d7d;
+    font-size: 18px; text-align:left
+}
+.c2le4 {
+    float: right;
+}
+.llmxszp1 ul li {
+    float: left;
+}
+.c6biao1 {
+    font-size: 30px;
+    padding: 50px 0;
+    text-align: center;
+}
+.bannerzx1 {
+    overflow: hidden;
+}
+.bannerzx1 a {
+    display: block;
+    height: 70px;
+    margin-top: 358px;
+}
+#in_ct {
+    background: rgba(0, 0, 0, 0) url("../Images/in_ct_bg.gif") repeat-x scroll 0 0;
+    height: auto;
+    margin: 6px 0 0;
+    overflow: hidden;
+    width: 100%;
+}
+.in_ct {
+    background: #fff none repeat scroll 0 0;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1110px;
+}
+.in_ct1 {
+    height: auto;
+    overflow: hidden;
+    padding: 30px 0;
+    width: 1110px;
+}
+.box li {
+    float: left;
+    height: 413px;
+    margin-left: 24px;
+    overflow: hidden;
+    position: relative;
+    width: 251px;
+}
+.toll_img {
+    height: 514px;
+    width: 272px;
+}
+.toll_info {
+    display: table-cell;
+    vertical-align: middle;
+}
+.box li .box1 {
+    color: #666;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+}

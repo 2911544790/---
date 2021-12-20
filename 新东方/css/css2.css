@@ -1,0 +1,359 @@
+
+.pr {
+    height: 100px;
+    padding-top: 5px;
+}
+.clearf::after, clearf::before {
+    content: "";
+    display: block;
+}
+.clearf::after {
+    clear: both;
+}
+.clearf {
+}
+.mr {
+    margin: 0 auto;
+    width: 1200px;
+}
+a {
+    color: #676767;
+    text-decoration: none;
+}
+img {
+    border: 0 none;
+}
+em {
+    font-style: normal;
+}
+.h1_hidden {
+    display: none;
+    height: 0;
+}
+.my_top {
+    background: #ffffff none repeat scroll 0 0;
+    height: 115px;
+    margin: 0 auto;
+    width: 100%;
+}
+.my_top_content {
+    height: 70px;
+    margin: auto;
+    padding-top: 35px;
+    width: 1200px;
+}
+.my_top_content_logo {
+    float: left;
+    height: 70px;
+    width: 450px;
+}
+.my_top_content_tel {
+    background: rgba(0, 0, 0, 0) url("../Images/tel.jpg") no-repeat scroll 0 0;
+    float: right;
+    height: 31px;
+    margin: 25px 10px 0 0;
+    width: 306px;
+}
+.my_nav {
+    background: #ee7800 none repeat scroll 0 0;
+    color: #000;
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.my_nav ul li {
+    float: left;
+}
+.my_nav ul li a {
+    float: left;
+}
+.my_nav ul li a:link, .my_nav ul li a:visited {
+    color: white;
+    text-align: center;
+    width: 109px;
+}
+.my_nav ul li a:hover {
+    background: #aa6506 none repeat scroll 0 0;
+}
+.left_nav {
+    background: #ee7800 none repeat scroll 0 0;
+    display: none;
+    left: 50%;
+    margin-left: -670px;
+    margin-top: -50px;
+    position: fixed;
+    z-index: 1000;
+}
+.left_nav_a1, .left_nav_a2, .left_nav_a3, .left_nav_a4 {
+    height: 31px;
+    margin-left: 4px;
+    position: absolute;
+    width: 31px;
+}
+.left_nav_a1 {
+    background: rgba(0, 0, 0, 0) url("../Images/zx_ico.png") no-repeat scroll 0 0;
+}
+.left_nav_a2 {
+    background: rgba(0, 0, 0, 0) url("../Images/zx_ico.png") no-repeat scroll -31px 0;
+}
+.left_nav_a3 {
+    background: rgba(0, 0, 0, 0) url("../Images/zx_ico.png") no-repeat scroll -62px 0;
+}
+.left_nav_a4 {
+    background: rgba(0, 0, 0, 0) url("../Images/zx_ico.png") no-repeat scroll -92px 0;
+}
+.left_nav a span {
+    color: #fff;
+    display: block;
+    margin-top: 32px;
+    text-align: center;
+}
+.left_nav a {
+    border-bottom: 1px solid #fff;
+    display: block;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    height: 50px;
+    padding: 8px 10px;
+    width: 40px;
+}
+.left_nav a:last-child {
+    border-bottom: medium none;
+}
+.fixed_1 {
+    left: 0;
+    margin-left: 0;
+    position: fixed;
+    top: 80px;
+    width: 60px;
+    z-index: 987654;
+}
+.fixed_1 a:link, .fixed_1 a:visited {
+    background: #ee7800 none no-repeat scroll center 8px;
+    color: #ffffff;
+    display: block;
+    height: 35px;
+    line-height: 23px;
+    margin-top: 1px;
+    padding-top: 30px;
+    text-align: center;
+    width: 60px;
+    z-index: 545;
+}
+.fixed_1 a:hover {
+    background-color: #484848;
+}
+.fixed_1 a {
+    position: relative;
+}
+.fixed_1 a.rtel {
+    height: 53px;
+    padding: 0;
+    position: relative;
+}
+.fixed_1 a.rtel span {
+    background: #0cf none repeat scroll 0 0;
+    font-size: 16px;
+    height: 53px;
+    line-height: 53px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 0;
+    width: 53px;
+}
+.fixed_1 a.rtel span i {
+    background: #ee7800 none no-repeat scroll center 8px;
+    color: #ffffff;
+    float: left;
+    font-size: 12px;
+    font-style: normal;
+    height: 23px;
+    line-height: 23px;
+    margin-right: 10px;
+    padding-top: 30px;
+    text-align: center;
+    width: 53px;
+}
+.fixed_1 a.rtel:hover span i {
+    background-color: #484848;
+}
+.fixed_1 a span.ewm {
+    background: #fff none repeat scroll 0 0;
+    display: none;
+    height: 100px;
+    padding: 10px;
+    position: absolute;
+    right: 53px;
+    top: 0;
+    width: 100px;
+}
+.fixed_1 a span.ewm img {
+    display: block;
+}
+.zx_show {
+    background: #f8f7f7 url("../Images/210img.png") no-repeat scroll right bottom;
+    border: 10px solid #f08326;
+    display: none;
+    height: 180px;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -130px;
+    padding: 15px 140px 15px 20px;
+    position: fixed;
+    top: 50%;
+    width: 210px;
+    z-index: 987654;
+}
+.zx_show_title {
+    color: #ee7800;
+    font-family: "Microsoft YaHei";
+    font-size: 31px;
+    font-weight: bold;
+}
+.zx_show_content {
+    color: #484848;
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+}
+.zx_show_fz18 {
+    border-top: 1px solid #e4e3e3;
+    color: #484848;
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+.fz24_cbold {
+    color: #ee7800;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+}
+.h34_mt10 {
+    height: 34px;
+    line-height: 34px;
+    margin-top: 10px;
+}
+.fz18_p0 {
+    background: #f08326 none repeat scroll 0 0;
+    color: #ffffff !important;
+    display: inline-block;
+    float: left;
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+.p010_fz18 {
+    background: #484848 none repeat scroll 0 0;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+.lxing {
+    position: fixed;
+    top: 0;
+}
+.head_dh ul li.on a {
+    background: #484848 none repeat scroll 0 0 !important;
+}
+.head_dh ul li.head_dh_pr {
+    display: none;
+    float: right;
+    font-size: 0;
+    height: 44px;
+    margin-right: 240px;
+    position: relative;
+}
+.footer_bg {
+    background: #f4f4f4 none repeat scroll 0 0;
+    width: 100%;
+}
+.foot_mid {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #fff;
+    font-size: 12px;
+    padding: 15px 0 20px;
+    text-align: center;
+}
+.foot_mid_bg {
+}
+.footer_edu {
+    background: rgba(0, 0, 0, 0) url("../Images/index_ico.png") no-repeat scroll 0 -90px;
+    float: left;
+    height: 80px;
+    width: 220px;
+}
+.footicon {
+    float: right;
+}
+.footicon li {
+    float: left;
+    height: 110px;
+    width: 132px;
+}
+.footicon li a {
+    display: block;
+    height: 110px;
+    overflow: hidden;
+    text-indent: -9999em;
+    width: 132px;
+}
+.footicon li.fot01 {
+    background: rgba(0, 0, 0, 0) url("../Images/footicon.png") no-repeat scroll 0 0;
+}
+.footicon li.fot01 a:hover {
+    background: rgba(0, 0, 0, 0) url("../Images/footicon.png") no-repeat scroll 0 -115px;
+}
+.footicon li.fot02 {
+    background: rgba(0, 0, 0, 0) url("../Images/footicon.png") no-repeat scroll -132px 0;
+}
+.footicon li.fot02 a:hover {
+    background: rgba(0, 0, 0, 0) url("../Images/footicon.png") no-repeat scroll -132px -115px;
+}
+.footicon li.fot03 {
+    background: rgba(0, 0, 0, 0) url("../Images/footicon.png") no-repeat scroll -264px 0;
+}
+.footicon li.fot03 a:hover {
+    background: rgba(0, 0, 0, 0) url("../Images/footicon.png") no-repeat scroll -264px -115px;
+}
+.footicon li.fot04 {
+    background: rgba(0, 0, 0, 0) url("../Images/footicon.png") no-repeat scroll -396px 0;
+}
+.footicon li.fot04 a:hover {
+    background: rgba(0, 0, 0, 0) url("../Images/footicon.png") no-repeat scroll -396px -115px;
+}
+.footicon li.fot05 {
+    background: rgba(0, 0, 0, 0) url("../Images/footicon.png") no-repeat scroll -528px 0;
+}
+.footicon li.fot05 a:hover {
+    background: rgba(0, 0, 0, 0) url("../Images/footicon.png") no-repeat scroll -528px -115px;
+}
+.footicon li.fot06 {
+    background: rgba(0, 0, 0, 0) url("../Images/footicon.png") no-repeat scroll -660px 0;
+}
+.footicon li.fot06 a:hover {
+    background: rgba(0, 0, 0, 0) url("../Images/footicon.png") no-repeat scroll -660px -115px;
+}
+.footicon li.fot07 {
+    background: rgba(0, 0, 0, 0) url("../Images/footicon.png") no-repeat scroll -792px 0;
+}
+.footicon li.fot07 a:hover {
+    background: rgba(0, 0, 0, 0) url("../Images/footicon.png") no-repeat scroll -792px -115px;
+}
+.foot {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border-top: 1px solid #fff;
+    color: #4e1303;
+    font: 14px/25px "寰蒋闆呴粦";
+    padding: 10px 0 20px;
+    text-align: center;
+}

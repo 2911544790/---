@@ -1,0 +1,418 @@
+
+.c {
+    clear: both;
+}
+.pr {
+    height: 100px;
+    padding-top: 5px;
+}
+.clearf::after, clearf::before {
+    content: "";
+    display: block;
+}
+.clearf::after {
+    clear: both;
+}
+.clearf {
+}
+.mr {
+    margin: 0 auto;
+    width: 1200px;
+}
+a {
+    color: #676767;
+    text-decoration: none;
+}
+a:hover {
+    color: #000;
+}
+img {
+    border: 0 none;
+}
+.clear_float {
+    clear: both;
+}
+.ccjy_common_title {
+    background: #CE2E20 none repeat scroll 0 0;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.ccjy_common_title_content {
+    margin: auto;
+    text-align: center;
+    width: 1200px;
+}
+.ccjy_common_title_content h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 50px;
+    padding-top: 50px;
+}
+.ccjy_common_title_content h3 {
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 25px;
+    margin: 30px auto; color:#fff
+}
+.ccjy_common_title_content h4 {
+    border-bottom: 1px solid #000;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    margin: auto auto 30px;
+    padding-bottom: 10px;
+    width: 545px;
+}
+.ccjy_common_title_content a {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #000;
+    display: block;
+    font-size: 26px;
+    line-height: 55px;
+    margin-left: 470px;
+    width: 260px;
+}
+.ccjy_common_title_content a:hover {
+    background: red none repeat scroll 0 0;
+}
+.meau {
+    background: #ee7800 none repeat scroll 0 0;
+    height: 50px;
+    line-height: 50px;
+}
+.m_gxzy {
+    background: #ff0000 none repeat scroll 0 0;
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    position: relative;
+    text-align: center;
+    width: 23%;
+}
+.m_gxzy a {
+    color: #fff;
+    display: block;
+}
+.dht_n ul {
+    float: right;
+    width: 77%;
+}
+.dht_n ul li {
+    font-size: 18px;
+    text-align: center;
+    width: 11%;
+}
+.dht_n ul li:nth-child(2n) {
+    margin-left: 0.252%;
+}
+.dht_n ul li:last-child {
+    text-align: right;
+}
+.dht_n ul li a, .m_gxzy {
+    color: #fff;
+    font-family: "Microsoft YaHei";
+}
+.dht_n ul li a {
+    display: block;
+}
+.dht_n ul li a:hover {
+    background: #ff0000 none repeat scroll 0 0;
+}
+.show {
+    position: absolute;
+    top: 51px;
+    z-index: 1;
+}
+.all_cat {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #f0f0f0;
+    position: absolute;
+    width: 276px;
+    z-index: 2;
+}
+.first_zy ul {
+    background: #ee7800 none repeat scroll 0 0;
+}
+.sec_zy ul {
+    background: #ee7800 none repeat scroll 0 0;
+}
+.zy_cent li {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    height: 49px;
+    width: 100%;
+}
+.zy_cent li a {
+    color: #fff;
+    display: block;
+    font: 16px/49px "Microsoft YaHei";
+    height: 49px;
+    padding: 0 2% 0 1%;
+}
+.zy_cent li a font {
+    float: left;
+    margin-left: 7px;
+}
+.zy_cent li a:hover {
+    background: #ff0000 none repeat scroll 0 0;
+}
+.zy_cent li a span {
+    float: right;
+    font: 12px/49px "Microsoft YaHei";
+    height: 49px;
+}
+.zy_01, .zy_02, .zy_03, .zy_04, .zy_05, .zy_06, .zy_07, .zy_08 {
+    float: left;
+    height: 23px;
+    margin-top: 15px;
+    width: 20px;
+}
+.zy_01 {
+    background: rgba(0, 0, 0, 0) url("../Images/index_ico.png") no-repeat scroll -526px 0;
+}
+.zy_02 {
+    background: rgba(0, 0, 0, 0) url("../Images/index_ico.png") no-repeat scroll -553px 0;
+}
+.zy_03 {
+    background: rgba(0, 0, 0, 0) url("../Images/index_ico.png") no-repeat scroll -582px 0;
+}
+.zy_04 {
+    background: rgba(0, 0, 0, 0) url("../Images/index_ico.png") no-repeat scroll -611px 0;
+}
+.zy_05 {
+    background: rgba(0, 0, 0, 0) url("../Images/index_ico.png") no-repeat scroll -638px 0;
+}
+.zy_06 {
+    background: rgba(0, 0, 0, 0) url("../Images/index_ico.png") no-repeat scroll -664px 0;
+}
+.zy_07 {
+    background: rgba(0, 0, 0, 0) url("../Images/index_ico.png") no-repeat scroll -690px 0;
+}
+.zy_08 {
+    background: rgba(0, 0, 0, 0) url("../Images/index_ico.png") no-repeat scroll -716px 0;
+}
+.ccjy_banner {
+    margin: auto;
+}
+.ccjy_banner_top {
+    background: #ffa01e none repeat scroll 0 0;
+}
+.ccjy_banner_top_content {
+    margin: auto;
+    text-align: center;
+    width: 1200px;
+}
+.ccjy_banner_top_content h1 {
+    color: white;
+    font-size: 100px;
+    font-weight: normal;
+    padding-top: 100px;
+}
+.ccjy_banner_top_content h2 {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.ccjy_banner_top_content h3 {
+    border-bottom: 1px solid #000;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 20px auto 30px;
+    padding-bottom: 10px;
+    width: 500px;
+}
+.ccjy_banner_top_content a {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #000;
+    display: block;
+    font-size: 26px;
+    line-height: 55px;
+    margin-left: 470px;
+    width: 260px;
+}
+.ccjy_banner_top_content a:hover {
+    background: #ff0000 none repeat scroll 0 0;
+    color: white;
+}
+.ccjy_banner_top_content img {
+    margin-left: 25px;
+    margin-top: 60px;
+}
+.ccjy_banner_bottom {
+    background: #e1e1e1 none repeat scroll 0 0;
+}
+.ccjy_banner_bottom_content {
+    background: rgba(0, 0, 0, 0) url("../Images/ccjy_banner_bottom.jpg") no-repeat scroll center top;
+    height: 226px;
+    margin: auto;
+}
+.ccjy_banner_bottom_content_content {
+    margin: auto;
+    width: 1300px;
+}
+.ccjy_banner_bottom_content_content ul {
+    padding-top: 15px;
+}
+.ccjy_banner_bottom_content_content ul li {
+    float: left;
+    font: 25px/50px "Microsoft YaHei";
+    height: 200px;
+    margin-left: 34px;
+    text-align: center;
+    width: 398px;
+}
+.ccjy_banner_bottom_content_content ul li:first-child {
+    border-right: 1px solid #999999;
+}
+.ccjy_banner_bottom_content_content ul li:last-child {
+    border-left: 1px solid #999999;
+}
+.ccjy_banner_bottom_content_content ul li a {
+    color: black;
+    opacity: 0.8;
+}
+.ccjy_banner_bottom_content_content ul li a:hover {
+    color: #ba0116;
+    opacity: 1;
+}
+.ccjy_banner_bottom_content_content ul li a img {
+    margin-top: 45px;
+}
+.ccjy_curriculum {
+    margin-top: 100px;
+}
+.ccjy_curriculum_content {
+    background: rgba(0, 0, 0, 0) url("../Images/ccjy_curriculum.jpg") no-repeat scroll center top;
+    height: 541px;
+    margin: auto;
+}
+.ccjy_curriculum_content_content {
+    margin: auto;
+    width: 1200px;
+}
+.ccjy_curriculum_content_content p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin-left: 190px;
+    padding-top: 75px;
+    width: 800px;
+}
+.ccjy_teachers {
+    margin-top: 100px;
+}
+.ccjy_teachers_content {
+    margin: auto;
+    width: 1200px;
+}
+.h455 {
+    height: 455px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    position: relative;
+    width: 1200px;
+}
+.h455 td {
+    height: 455px;
+    overflow: hidden;
+}
+.h455 td td {
+    height: auto;
+    width: auto;
+}
+.w300 {
+    overflow: hidden;
+    width: 165px;
+}
+.w350 {
+    border-bottom: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    float: left;
+    height: 413px !important;
+    padding: 20px 15px !important;
+    width: 347px !important;
+}
+.w328 img {
+    opacity: 0.7;
+}
+.lx .w328 img {
+    opacity: 1;
+}
+.ti_fz16 {
+    color: #ee7800;
+    font-size: 16px;
+    font-weight: bold;
+}
+.ti_fz16 a {
+    color: #ee7800;
+}
+.c28_fbold {
+    color: #282828;
+    font-weight: bold;
+    line-height: 36px;
+}
+.lh18_ca {
+    color: #a5a4a4;
+    line-height: 25px;
+}
+.h103 {
+    height: 103px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.ccjy_xszp {
+    margin-top: 100px;
+}
+.ccjy_xszp_content {
+    margin: auto;
+    width: 1200px;
+}
+.ccjy_xszp_content ul li {
+    padding: 2px; float:left
+}
+.ccjy_certificate {
+    margin-top: 100px;
+}
+.ccjy_certificate_content {
+    background: rgba(0, 0, 0, 0) url("../Images/ccjy_certificate.jpg") no-repeat scroll center top;
+    height: 547px;
+    margin: auto;
+}
+.ccjy_certificate_content_content {
+    margin: auto;
+    width: 1200px;
+}
+.ccjy_certificate_content_content p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin-left: 240px;
+    padding-top: 100px;
+    width: 720px;
+}
+.ccjy_certificate_content_content p a {
+    color: #f00;
+}
+.ccjy_certificate_content_content h2 {
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 25px;
+    padding-top: 100px;
+    text-align: center;
+}
+.ccjy_tjzy {
+    margin-top: 100px;
+}
+.ccjy_tjzy_content {
+    margin: auto;
+    width: 1200px;
+}
+.ccjy_tjzy_content ul li {
+    margin-left: 40px;
+    margin-top: 35px;
+}

@@ -1,0 +1,424 @@
+
+.llmclear {
+    clear: both;
+}
+.jz1 {
+    margin: auto;
+    width: 1200px;
+}
+.meau {
+    background: #ee7800 none repeat scroll 0 0;
+    height: 50px;
+    line-height: 50px;
+}
+.m_gxzy {
+    background: #ff0000 none repeat scroll 0 0;
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    position: relative;
+    text-align: center;
+    width: 23%;
+}
+.m_gxzy a {
+    color: #fff;
+    display: block;
+}
+.dht_n ul {
+    float: right;
+    width: 77%;
+}
+.dht_n ul li {
+    font-size: 18px;
+    text-align: center;
+    width: 11%;
+}
+.dht_n ul li:nth-child(2n) {
+    margin-left: 0.252%;
+}
+.dht_n ul li:last-child {
+    text-align: right;
+}
+.dht_n ul li a, .m_gxzy {
+    color: #fff;
+    font-family: "Microsoft YaHei";
+}
+.dht_n ul li a {
+    display: block;
+}
+.dht_n ul li a:hover {
+    background: #ff0000 none repeat scroll 0 0;
+}
+.show {
+    position: absolute;
+    top: 51px;
+    z-index: 1;
+}
+.all_cat {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #f0f0f0;
+    position: absolute;
+    width: 276px;
+    z-index: 2;
+}
+.first_zy ul {
+    background: #ee7800 none repeat scroll 0 0;
+}
+.sec_zy ul {
+    background: #ee7800 none repeat scroll 0 0;
+}
+.zy_cent li {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    height: 49px;
+    width: 100%;
+}
+.zy_cent li a {
+    color: #fff;
+    display: block;
+    font: 16px/49px "Microsoft YaHei";
+    height: 49px;
+    padding: 0 2% 0 1%;
+}
+.zy_cent li a font {
+    float: left;
+    margin-left: 7px;
+}
+.zy_cent li a:hover {
+    background: #ff0000 none repeat scroll 0 0;
+}
+.zy_cent li a span {
+    float: right;
+    font: 12px/49px "Microsoft YaHei";
+    height: 49px;
+}
+.zy_01, .zy_02, .zy_03, .zy_04, .zy_05, .zy_06, .zy_07, .zy_08 {
+    float: left;
+    height: 23px;
+    margin-top: 15px;
+    width: 20px;
+}
+.zy_01 {
+    background: rgba(0, 0, 0, 0) url("../Images/index_ico.png") no-repeat scroll -526px 0;
+}
+.zy_02 {
+    background: rgba(0, 0, 0, 0) url("../Images/index_ico.png") no-repeat scroll -553px 0;
+}
+.zy_03 {
+    background: rgba(0, 0, 0, 0) url("../Images/index_ico.png") no-repeat scroll -582px 0;
+}
+.zy_04 {
+    background: rgba(0, 0, 0, 0) url("../Images/index_ico.png") no-repeat scroll -611px 0;
+}
+.zy_05 {
+    background: rgba(0, 0, 0, 0) url("../Images/index_ico.png") no-repeat scroll -638px 0;
+}
+.zy_06 {
+    background: rgba(0, 0, 0, 0) url("../Images/index_ico.png") no-repeat scroll -664px 0;
+}
+.zy_07 {
+    background: rgba(0, 0, 0, 0) url("../Images/index_ico.png") no-repeat scroll -690px 0;
+}
+.zy_08 {
+    background: rgba(0, 0, 0, 0) url("../Images/index_ico.png") no-repeat scroll -716px 0;
+}
+.banner1 {
+    background: rgba(0, 0, 0, 0) url("../Images/zhuanxiu.jpg") no-repeat scroll center center / cover ;
+    min-height: 500px;
+    text-align: center;
+}
+.banner1 img {
+    padding-top: 375px;
+}
+.c1biao {
+    font-size: 50px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    text-align: center;
+}
+.c1cen p {
+    padding-bottom: 10px;
+}
+.c4zx2 {
+    background: #bf1f1f none repeat scroll 0 0;
+    border: 5px solid #bf1f1f;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 50px;
+    padding: 5px 23px;
+}
+.c1cen {
+    padding-bottom: 100px;
+    text-align: center;
+}
+.c1biao2 {
+    color: #555;
+    letter-spacing: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    text-align: center;
+}
+.c2nei1 {
+    background: rgba(0, 0, 0, 0) url("../Images/c2tu1.jpg") no-repeat scroll center center / cover ;
+    min-height: 565px;
+    text-align: center;
+}
+.c2nei1 img {
+    padding-top: 410px;
+}
+.c3nei1 ul li {
+    float: left;
+    padding: 0 47px;
+    text-align: center;
+    width: 305px;
+}
+.c3nei1 ul li h4 {
+    padding: 10px 0;
+}
+.c3nei1 ul li p {
+    color: #818181;
+    line-height: 25px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+.c3cen {
+    padding: 100px 0 0;
+}
+.c1anniu {
+    background: #bf1f1f none repeat scroll 0 0;
+    border: 5px solid #bf1f1f;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 30px;
+}
+.c1anniu:hover {
+    background: #ff9900 none repeat scroll 0 0;
+    border: 5px solid #ff9900;
+}
+.center4 {
+    background: rgba(0, 0, 0, 0) url("../Images/c4tu1.jpg") no-repeat scroll center center / cover ;
+    min-height: 501px;
+    text-align: center;
+}
+.center4 img {
+    padding-top: 380px;
+}
+.c5le {
+    float: left;
+    width: 50%;
+}
+.c5ri {
+    float: right;
+    text-align: center;
+    width: 50%;
+}
+.c5ri h4 {
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.c5ri p {
+    color: #818181;
+    line-height: 30px;
+    margin-bottom: 50px;
+    padding: 0 20px;
+    text-align: left;
+}
+.c5cen {
+    padding: 50px 0;
+}
+.zhuzhu1 {
+    padding: 50px 0;
+    text-align: center;
+}
+.c5ri1 {
+    float: right;
+    width: 50%;
+}
+.c5le1 {
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+.c5le1 h4 {
+    font-size: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.c5le1 p {
+    color: #818181;
+    line-height: 30px;
+    margin-bottom: 50px;
+    padding: 0 20px;
+    text-align: left;
+}
+#in_ct {
+    background: rgba(0, 0, 0, 0) url("../Images/in_ct_bg.gif") repeat-x scroll 0 0;
+    height: auto;
+    margin: 6px 0 0;
+    overflow: hidden;
+    width: 100%;
+}
+.in_ct {
+    background: #fff none repeat scroll 0 0;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1110px;
+}
+.in_ct1 {
+    height: auto;
+    overflow: hidden;
+    padding: 30px 0;
+    width: 1110px;
+}
+.box li {
+    float: left;
+    height: 413px;
+    margin-left: 24px;
+    overflow: hidden;
+    position: relative;
+    width: 251px;
+}
+.toll_img {
+    height: 514px;
+    width: 272px;
+}
+.toll_info {
+    display: table-cell;
+    vertical-align: middle;
+}
+.box li .box1 {
+    color: #666;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+}
+.h_tonglan {
+    margin: 0 auto;
+    padding: 55px 10px;
+    width: 1200px;
+}
+.h_tonglan dl {
+    background: rgba(0, 0, 0, 0) url("../Images/huixian2.gif") repeat-x scroll center top;
+    height: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 1100px;
+}
+.h_tonglan dl dd {
+    background: rgba(0, 0, 0, 0) url("../Images/lvx2.gif") repeat-x scroll center top;
+    float: left;
+    height: 32px;
+    width: 196px;
+}
+.h_tonglan dl dt {
+    color: #6a6a6a;
+    float: right;
+    line-height: 25px;
+    min-height: 25px;
+    text-align: right;
+    width: 700px;
+}
+.h_tonglan ul {
+    overflow: hidden;
+}
+.h190px {
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    padding-bottom: 3px;
+    padding-top: 14px;
+}
+.h190px img {
+    border: 0 none;
+    width: 1100px;
+}
+.h218px {
+    height: auto;
+    margin: 0 auto;
+    padding-top: 14px;
+    width: 1200px;
+}
+.h218px th {
+    padding-top: 180px;
+}
+.h218px td {
+    overflow: hidden;
+    padding: 0 40px;
+}
+#scrollbox ul {
+    overflow: hidden;
+}
+#scrollbox ul LI {
+    float: left;
+    height: 700px;
+    min-height: 18px;
+    overflow: hidden;
+    padding: 0 30px;
+    text-align: center;
+    vertical-align: top;
+}
+#scrollbox ul LI img {
+    border: 0 none;
+}
+.pointer {
+    cursor: pointer;
+}
+.fB {
+    font-weight: bold;
+}
+.fred {
+    color: #ff0000;
+}
+.f12px {
+    font-size: 12px;
+}
+.f14px {
+    font-size: 14px;
+}
+.f14pxbai {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.f16px {
+    font-size: 16px;
+}
+.f18px {
+    font-size: 18px;
+}
+.f22px {
+    color: #ffffff;
+    font-size: 22px;
+}
+.center {
+    margin: 0 auto;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.rejm {
+    border: 1px solid #7e9db9;
+    height: 20px;
+    line-height: 20px;
+    width: 60px;
+}
+.llm_jian1 {
+    background: #b2b2b2 none repeat scroll 0 0;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 250px;
+}
+.llm_jian1 img {
+    margin: 0 50px;
+}
