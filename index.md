@@ -1,5 +1,4 @@
-＃＃ 欢迎来到  小刘同学的新东方项目
-
+ 欢迎来到  小刘同学的新东方项目
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
